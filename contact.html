@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/usamadeveng.jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Oxygen&amp;family=Oxygen+Mono&amp;display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css ">
+    <link rel="stylesheet" href="css/small.css">
+    <title>Usama Razzaq</title>
+</head>
+<body>
+    <!-----------   header   ------------->
+    <header>
+      <!--   navbar      -->
+      <nav>
+        <ul>
+          <li>
+            <h1>
+              <a href="index.html" target="_self">
+                <span> USAMA</span>
+              </a>
+            </h1>
+          </li>
+          <div class="nav-links">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <li>
+              <a href="about.html" target="_self">About</a>
+            </li>
+            <li>
+              <a href="contact.html" target="_self">Contact</a>
+            </li>
+            <li>
+              <a href="resume/Usama Razzaq (Resume).docx" target="_self">Resume</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/usamadeveng/" target="_blank">           
+                <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                <span class="sr-only">LinkedIn</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/usamadeveng" target="_blank">
+                <i class="fa-brands fa-square-twitter" aria-hidden="true"></i>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Usama-Razzaq-AM" target="_blank">
+                <i class="fa-brands fa-square-github" aria-hidden="true"></i>
+                <span class="sr-only">Github</span>
+              </a>
+            </li>
+            <li>
+              <a href="projects.html" target="_self" class="button">Projects</a>
+            </li>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>           
+        </ul> 
+      </nav>
+    </header>
+    <div class="gradients"></div>
+
+    <!-----------   main   ------------->
+    <div class="section-dkblue">
+      <main class="contact-main">
+        <div class="contact-col">
+          <!-- <div class="contact-wrapper"> -->
+            <div>
+              <i class="fa fa-home"></i>
+              <span>
+              <h5>Hanif Park, Harbanspura</h5>
+              <p>Lahore, Pakistan</p>
+              </span>
+            </div>
+            <div>
+              <i class="fa fa-brands fa-whatsapp"></i>
+              <span>
+              <h5>+92 307 4577888 </h5>
+              <p>Monday to Saturday</p>
+              </span>
+            </div>
+            <div>
+              <i class="fa fa-solid fa-envelope"></i>
+              <span>
+              <h5>portfolio@iamusama.online</h5>
+              <p>Email us your query</p>
+              </span>
+            </div>
+          <!-- </div> -->
+        </div>
+        <div class="contact-col">          
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <input type="email" name="email" placeholder="Enter email address" required>
+                <textarea rows="10" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="button">Send Message</button>
+            </form>                 
+        </div>
+      </main>
+    </div>
+    <div class="gradients"></div>
+
+    <!-----------   footer   ------------->
+    <div class="footer-container">
+      <footer>
+      
+        <h2>Usama Razzaq &middot; Developer<h2>
+          
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/usamadeveng/" target="_blank">
+            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+          <span class="sr-only">LinkedIn</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/usamadeveng" target="_blank">
+            <i class="fa-brands fa-square-twitter" aria-hidden="true"></i>
+            <span class="sr-only">Twitter</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/Usama-Razzaq-AM" target="_blank">
+                <i class="fa-brands fa-square-github" aria-hidden="true"></i>
+                <span class="sr-only">Github</span>
+          </a>
+        </li>
+      </ul>   
+      
+      <div class="copy-rights">
+        <p><small>&copy; 2023 Usama Razzaq. All rights reserved.</small></p>
+      </div>
+      </footer>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

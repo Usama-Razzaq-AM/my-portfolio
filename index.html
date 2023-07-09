@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="images/usamadeveng.jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Oxygen&amp;family=Oxygen+Mono&amp;display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/small.css">
+  <title>Usama Razzaq</title>
+</head>
+
+<body>
+
+  <div id="hero-container">
+    <!--   header      -->
+    <header>
+      <!--   navbar      -->
+      <nav>
+        <ul>
+          <li>
+            <h1>
+              <a href="index.html" target="_self">
+                <!-- <i class="fa-solid fa-magnet" aria-hidden="true"></i> -->
+                <span> USAMA</span>
+              </a>
+            </h1>
+          </li>
+          <div class="nav-links">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <li>
+              <a href="about.html" target="_self">About</a>
+            </li>
+            <li>
+              <a href="contact.html" target="_self">Contact</a>
+            </li>
+            <li>
+              <a href="resume/Usama Razzaq (Resume).docx" target="_self">Resume</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/usamadeveng/" target="_blank">
+                <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                <span class="sr-only">LinkedIn</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/usamadeveng" target="_blank">
+                <i class="fa-brands fa-square-twitter" aria-hidden="true"></i>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Usama-Razzaq-AM" target="_blank">
+                <i class="fa-brands fa-square-github" aria-hidden="true"></i>
+                <span class="sr-only">Github</span>
+              </a>
+            </li>
+            <li>
+              <a href="projects.html" target="_self" class="button animated">Projects</a>
+            </li>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </ul>
+      </nav>
+    </header>
+    <div class="gradients"></div>
+
+    <!--   intro      -->
+    <section id="intro">
+      <div class="intro-child-1">
+        <p class="name">Hi, my name is <span>Usama Razzaq</span></p>
+        <h2>A Front-End Web Developer</h2>
+      </div>
+      <div class="intro-child-2">
+        <img src="images/usamadeveng.jpeg" alt="A picture of Usama Razzaq" id="main-pic">
+      </div>
+      <div class="intro-child-3">
+        <p>I am a front-end web developer specializing in HTML, CSS, JavaScript, and ReactJS. Currently pursuing
+          graduation in IT from the University of Education, Lahore.</p>
+        <p> I am passionate about crafting websites that combine high responsiveness, excellent accessibility, and
+          interactive UI/UX interfaces.</p>
+      </div>
+    </section>
+
+
+  </div><!--   #hero-container    -->
+
+  <div class="gradients"></div>
+
+  <!----------------------------------  projects  -------------------------------->
+
+  <div class="light-bg">
+    <section id="projects">
+      <div class="h2-container">
+        <h2>My Favourite Projects</h2>
+      </div>
+
+      <article>
+        <div class="text">
+          <h4>Latest Project</h4>
+          <h3>A Quiz Game</h3>
+          <p class="blackbox">This is a quiz game that I've made using HTML, CSS, and JavaScript. In this game, I've
+            fetched the questions using an API provided by <a href="https://opentdb.com/" target="_blank">Open Trivia
+              Database</a>. This API can be used to fetch any number of questions about the desired topic. I've fetched
+            10 questions about the Computer Science topic. This website will also show you the obtained score and store
+            it on local storage, which is then used to show high scores based on local storage scores.</p>
+          <a class="button" href="https://majestic-cascaron-899176.netlify.app/" target="_blank">Click to View</a>
+          <h4>Technologies used include:</h4>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+        <img src="./images/quizGame (1).jpg" alt="Screenshot of the Quiz Game." />
+      </article>
+
+      <article class="reverse">
+        <div class="text">
+          <h4>Bootcamp Project</h4>
+          <h3>A University Website</h3>
+          <p class="blackbox">This is an HTML, and CSS project I made during the frontend boot camp organized by the <a
+              href="https://www.linkedin.com/company/ue-it-society/" target="_blank">UE IT society</a>. This is a
+            responsive website of a dummy college with multiple pages. This project pushed my boundaries on different
+            HTML and CSS concepts
+            such as HTML forms, CSS animations, transitions, dynamic units, grid and flexbox, etc.</p>
+          <a href="https://fluffy-creponne-8e1731.netlify.app/" class="button" target="_blank">Click to View</a>
+          <h4>Technologies used include:</h4>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+        <img src="./images/uniwebsite (1).jpg" />
+      </article>
+
+      <article>
+        <div class="text">
+          <h4>Personal Project</h4>
+          <h3>Tasbeeh Counter</h3>
+          <p class="blackbox">
+            This is my first JavaScript project, inspired by the JavaScript course provided at <a
+              href="https://scrimba.com/" target="_blank">Scrimba</a>. I was exposed to different JavaScript concepts
+            such as DOM manipulation, operators, event handlers, functions, conditionals, and much more, during this
+            project. I’ve provided increment, decrement and save button functionalities in this project.
+          </p>
+          <a href="https://iamusama.online/tasbeehcounter/" class="button" target="_blank">Click to View</a>
+          <h4>Technologies used include:</h4>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+        <img src="./images/tasbeehcounter (1).jpg" />
+      </article>
+
+    </section>
+  </div>
+
+  <div class="gradients"></div>
+
+  <!----------------------------------- contact ----------------------------------->
+
+  <div class="contact-container">
+    <section id="contact">
+      <h2>Contact me</h2>
+      <p>Ready to turn your web dreams into reality? Let's team up and craft extraordinary online
+        experiences. Reach out to me today, and together, we'll shape your vision into a stunning
+        digital reality!</p>
+      <p><a class="button" href="contact.html">Click here</a></p>
+    </section>
+  </div>
+
+  <div class="gradients"></div>
+
+
+  <!----------------------------------- footer ------------------------------------>
+
+  <div class="footer-container">
+    <footer>
+
+      <h2>Usama Razzaq &middot; Developer<h2>
+
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com/in/usamadeveng/" target="_blank">
+                <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                <span class="sr-only">LinkedIn</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/usamadeveng" target="_blank">
+                <i class="fa-brands fa-square-twitter" aria-hidden="true"></i>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Usama-Razzaq-AM" target="_blank">
+                <i class="fa-brands fa-square-github" aria-hidden="true"></i>
+                <span class="sr-only">Github</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="copy-rights">
+            <p><small>&copy; 2023 Usama Razzaq. All rights reserved.</small></p>
+          </div>
+    </footer>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
